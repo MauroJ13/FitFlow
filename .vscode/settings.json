@@ -1,0 +1,9 @@
+{
+  // Live Server can't compile TypeScript/JSX, so "Go Live" forwards to the
+  // Vite dev server (started automatically by .vscode/tasks.json).
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/",
+    "proxyUri": "http://127.0.0.1:5173"
+  }
+}

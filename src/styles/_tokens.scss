@@ -1,0 +1,62 @@
+// Design tokens. Dark is the default theme; light is optional.
+:root {
+  --bg: #090a0c;
+  --bg-2: #101216;
+  --surface: #15171b;
+  --surface-2: #1d2025;
+  --surface-3: #292c32;
+  --border: #292c32;
+  --text: #f5f5f5;
+  --muted: #92969e;
+  --accent: #c5f36b;
+  --accent-ink: #0b0d08;
+  --accent-soft: rgba(197, 243, 107, 0.38);
+  --accent-tint: rgba(197, 243, 107, 0.1);
+  --danger: #ff6b6b;
+  --warn: #ffb648;
+  --c-gym: #5ee08a;
+  --c-nutrition: #5aa9ff;
+  --c-sleep: #a78bfa;
+  --c-habits: #ff9f43;
+  --c-water: #35d4e8;
+  --c-activity: #f472b6;
+  --r-card: 22px;
+  --r-btn: 16px;
+  --r-input: 15px;
+  --r-modal: 28px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --glass: rgba(16, 18, 22, 0.78);
+  --nav-h: 66px;
+  /* spacing scale – use these instead of ad-hoc values */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --gap: 14px;
+  --card-pad: 18px;
+  --page-max: 1280px;
+  --font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color-scheme: dark;
+}
+:root[data-theme='light'] {
+  --bg: #f3f5ef;
+  --bg-2: #eceee7;
+  --surface: #ffffff;
+  --surface-2: #f4f6f0;
+  --surface-3: #e3e6dc;
+  --border: #dfe2d8;
+  --text: #14171a;
+  --muted: #646a73;
+  --accent: #a4dc3a;
+  --accent-ink: #10140a;
+  --accent-soft: rgba(120, 170, 20, 0.4);
+  --accent-tint: rgba(140, 200, 30, 0.14);
+  --danger: #d93b3b;
+  --warn: #b86e00;
+  --shadow: 0 10px 30px rgba(20, 30, 10, 0.08);
+  --glass: rgba(255, 255, 255, 0.82);
+  color-scheme: light;
+}

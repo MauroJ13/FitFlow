@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.env.local
+*.log
+.DS_Store
+scripts/smoke/dist/
+scripts/smoke/dist-real/
+scripts/smoke/shots/
+scripts/smoke/shots-real/

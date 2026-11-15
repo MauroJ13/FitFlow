@@ -1,0 +1,4 @@
+// Only one mixin on purpose (see PROJECT_STATUS.md → SCSS rule).
+@mixin desktop {
+  @media (min-width: 960px) { @content; }
+}
